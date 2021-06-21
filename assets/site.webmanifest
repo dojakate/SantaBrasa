@@ -1,0 +1,13 @@
+{
+    "name": "Santa Brasa",
+    "short_name": "Santa Brasa",
+    "icons": [
+        {
+            "src": "/assets/android-chrome-96x96.png?v=1",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#db8946",
+    "background_color": "#db8946"
+}

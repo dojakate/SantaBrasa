@@ -1,1 +1,117 @@
-Working!
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+      <meta name="description" content="Peruvian Restaurant in Clifton, NJ" />
+      <meta name="author" content="Jacob Phillips" />
+      <title>Santa Brasa | Real Peruvian Eatery</title>
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/apple-touch-icon.png?v=1">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png?v=1">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png?v=1">
+      <link rel="manifest" href="assets/site.webmanifest?v=1">
+      <link rel="mask-icon" href="assets/safari-pinned-tab.svg?v=1" color="#db8946">
+      <link rel="shortcut icon" href="assets/favicon.ico?v=1">
+      <meta name="apple-mobile-web-app-title" content="Santa Brasa">
+      <meta name="application-name" content="Santa Brasa">
+      <meta name="msapplication-TileColor" content="#000000">
+      <meta name="msapplication-config" content="assets/browserconfig.xml?v=1">
+      <meta name="theme-color" content="#db8946">
+      <link href="css/styles.css" rel="stylesheet" />
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top" id="topNav">
+         <div class="container px-5">
+            <a class="navbar-brand" href="#home"> <img src="assets/img/banner.png" alt="Santa Brasa" width="239" height="54"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about-us">About Us</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#our-menu">Our Menu</a></li>
+                  <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact-us">Contact Us</a></li>
+                  <!--<li class="nav-item"><a class="nav-link" href="#!">Example</a></li>-->
+                  <button type="button" class="btn btn-outline-primary shadow-none" data-bs-toggle="modal" data-bs-target="#orderModel">Order Online</button>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="modal fade" id="orderModel" data-bs-backdrop="static" data-bs-keyboard="true" tabindex="-1" aria-labelledby="orderModelLabel" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="orderModelLabel">Available Providers</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+               </div>
+               <div class="modal-body">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col">
+                           <a href="#" target="_blank" alt="Order Food with DoorDash" title="Order Food with DoorDash" style="text-decoration: none">
+                              <div style="position: relative; width:289px; height:59px; margin: 0px auto; background-image: url(assets/img/doordash.svg); color:transparent;">Order Food with DoorDash</div>
+                           </a>
+                        </div>
+                     </div>
+                     <div class="row mt-3">
+                        <div class="col">
+                           <a href="#" target="_blank" alt="Order Food with Postmates" title="Order Food with Postmates" style="text-decoration: none">
+                              <div style="position: relative; width:289px; height:59px; margin: 0px auto; background-image: url(assets/img/postmates.png); color:transparent;">Order Food with Postmates</div>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+	  <div class="container-fluid" style="padding-left:0px; padding-right:0px;">
+         <section class="restaurant-section" id="home">
+            <div class="restaurant-section-content">
+               <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner" style="max-height:calc(100vh - 80px);">
+                     <div class="carousel-item active" data-bs-interval="5000">
+					    <div class="d-lg-none"><img src="assets/img/image2-m.jpg" alt="..." width="100%;"></div>
+                        <div class="d-none d-lg-block"><img src="assets/img/image2.jpg" alt="..." width="100%;"></div>
+                     </div>
+                     <div class="carousel-item" data-bs-interval="5000">
+					    <div class="d-lg-none"><img src="assets/img/image1-m.jpg" alt="..." width="100%;"></div>
+                        <div class="d-none d-lg-block"><img src="assets/img/image1.jpg" alt="..." width="100%;"></div>
+                     </div>
+                  </div>
+				  <div class="carousel-indicators">
+                     <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                     <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </div>
+	  <div class="container px-4 px-lg-5">
+         <section class="restaurant-section" id="about-us">
+            <div class="restaurant-section-content">
+               <p>About Us</p>
+            </div>
+         </section>
+         <section class="restaurant-section" id="our-menu">
+            <div class="restaurant-section-content">
+               <p>Our Menu</p>
+            </div>
+         </section>
+         <section class="restaurant-section" id="contact-us">
+            <div class="restaurant-section-content">
+               <p>Contact Us</p>
+            </div>
+         </section>
+      </div>
+      <div class="container-fluid" style="padding-left:0px; padding-right:0px;">
+         <iframe style="display:block" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3016.666943037656!2d-74.1460721845899!3d40.87918277931414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2ff2fa662e9cd%3A0x788d9b8128deaadd!2sSanta%20Brasa!5e0!3m2!1sen!2sus!4v1623893177455!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <footer class="py-5 bg-dark">
+         <div class="container px-4 px-lg-5">
+            <p class="m-0 text-center text-white">Copyright &copy; 2021 Santa Brasa | Website by <a href="https://jacobphillips.com" target="_blank" class="link-primary">Jacob Phillips</a></p>
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/scripts.js"></script>
+   </body>
+</html>
